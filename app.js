@@ -55,6 +55,7 @@ function init() {
         targets: card,
         translateX: directionForward ? ["100vw", 0] : ["-100vw", 0],
         rotate: [40, 0],
+        opacity: 1,
       }).add(
         {
           targets: title.querySelectorAll(".letter"),
