@@ -83,6 +83,7 @@ function init() {
         targets: card,
         translateX: directionForward ? [0, "100vw"] : [0, "-100vw"],
         rotate: [0, -40],
+        opacity: [1, 0],
       }).add(
         {
           targets: title.querySelectorAll(".letter"),
